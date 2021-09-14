@@ -15,11 +15,11 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
-    testImplementation 'io.rest-assured:rest-assured:4.3.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
+    testImplementation 'com.codeborne:selenide:5.19.0'
+    testImplementation 'com.github.javafaker:javafaker:1.0.2'
+    testImplementation 'io.rest-assured:rest-assured:4.3.3'
     testImplementation 'com.google.code.gson:gson:2.8.6'
-    testImplementation 'com.codeborne:selenide:5.23.3'
-    implementation 'com.github.javafaker:javafaker:1.0.2'
 }
 
 test {

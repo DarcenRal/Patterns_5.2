@@ -11,7 +11,7 @@ import java.util.Locale;
 import static io.restassured.RestAssured.given;
 
 public class DataGenerator {
-    private static Faker faker =new Faker(new Locale("ru"));
+    private static Faker faker = new Faker(new Locale("ru"));
 
     private static RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri("http://localhost")
